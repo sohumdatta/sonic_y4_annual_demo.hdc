@@ -9,7 +9,7 @@ path(path, GET_SAMPLE_DIR);   %setup new path
 
 
 xrange = 1:NUM_SAMPLES;
-yrange = [-10000 , 10000];
+yrange = [-3000 , 3000];
 channel = zeros(4, NUM_SAMPLES);
 
 val_dump = zeros(5,1);
