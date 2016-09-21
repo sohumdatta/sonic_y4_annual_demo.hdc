@@ -18,7 +18,7 @@ filtered_channel = raw_data(:, [8:11])';
 figure
 
 subplot(4,2,1)
-h1 = plot(xrange, channel(1,:)); title('Channel 1');
+h1_raw = plot(xrange, channel(1,:)); title('Channel 1');
 ylim(yrange);
 
 subplot(4,2,2)
@@ -27,7 +27,7 @@ ylim(yrange);
 
 
 subplot(4,2,3)
-h2 = plot(xrange, channel(2,:)); title('Channel 2');
+h2_raw = plot(xrange, channel(2,:)); title('Channel 2');
 ylim(yrange);
 
 subplot(4,2,4)
@@ -36,7 +36,7 @@ ylim(yrange);
 
 
 subplot(4,2,5)
-h3 = plot(xrange, channel(3,:)); title('Channel 3');
+h3_raw = plot(xrange, channel(3,:)); title('Channel 3');
 ylim(yrange);
 
 subplot(4,2,6)
@@ -45,7 +45,7 @@ ylim(yrange);
 
 
 subplot(4,2,7)
-h4 = plot(xrange, channel(4,:)); title('Channel 4');
+h4_raw = plot(xrange, channel(4,:)); title('Channel 4');
 ylim(yrange);
 
 subplot(4,2,8)
