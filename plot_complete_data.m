@@ -2,7 +2,7 @@
 
 clear all; close all; clc;
 
-DATA_DIR = '~/sonic_y4_annual_demo/run/latest_emg_data.txt';
+DATA_DIR = '~/sonic_y4_annual_demo/asl/run/latest_emg_data.txt';
 
 %%% NOTE: discard the first line/row always!
 raw_data = load(DATA_DIR);
@@ -10,7 +10,7 @@ raw_data = raw_data([2:(size(raw_data, 1) - 1)], :);
 
 num_data = size(raw_data,1);
 xrange = 1:num_data;
-yrange = [-10000 , 10000];
+yrange = [-3000 , 3000];
 
 channel = raw_data(:, [4:7])';
 filtered_channel = raw_data(:, [8:11])';

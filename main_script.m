@@ -4,7 +4,7 @@ clear all; clc; close all;
 NUM_SAMPLES = 1000;  % the sliding window of samples shown
 DELAY = 0.005;   % delay between samples drawn in seconds, MUST be >= 0.05
 
-GET_SAMPLE_DIR = '~/sonic_y4_annual_demo/bluetooth/';
+GET_SAMPLE_DIR = '~/sonic_y4_annual_demo/asl/bluetooth/';
 path(path, GET_SAMPLE_DIR);   %setup new path 
 
 

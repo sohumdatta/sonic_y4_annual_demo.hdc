@@ -1,6 +1,6 @@
 %% plot_channels.m: plot the filtered values from the EMG setup device
 function [h1, h2, h3, h4] = plot_channels(NUM_SAMPLES, DELAY);
-	GET_SAMPLE_DIR = '~/sonic_y4_annual_demo/bluetooth/';
+	GET_SAMPLE_DIR = '~/sonic_y4_annual_demo/asl/bluetooth/';
 	path(path, GET_SAMPLE_DIR);   %setup new path 
 
 	xrange = 1:NUM_SAMPLES;
